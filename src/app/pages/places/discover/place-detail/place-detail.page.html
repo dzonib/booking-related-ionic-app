@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <!-- LEARNI -->
+    <!-- back button -->
+    <!-- if you reload page have back button on, it does not know where to go -->
+    <!-- memory is gone and the button is gone -->
+    <!-- so you can add default page to go to to solve that -->
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/tabs/discover"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Place detail</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-button color="primary"
+              class="ion-margin"
+              (click)="onBookPlace()">Back</ion-button>
+</ion-content>
